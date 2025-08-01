@@ -44,7 +44,7 @@ body {
 
 
 .freeze-section {
-  justify: center;
+  justify-content: center;
   padding: 40px 20px;
 }
 
