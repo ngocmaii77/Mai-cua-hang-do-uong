@@ -161,6 +161,24 @@ body {
   --primary: #B2292E;
   --secondary: #FFFFFF;
   --line: #53382C;
+  --animation:#000000;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color:#B2292E;
+  color:#FFFFFF;
+  font-size: 13px;
+}
+
+.top-footer {
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 body {
@@ -184,8 +202,71 @@ body {
 
 .footer .logo {
   width: 120px;
-  height: auto;
+  height: 100px;
   margin-bottom: 10px;
+}
+
+.footer-column {
+  min-width: 120px;
+  margin: 10px 0;
+}
+
+.footer-column h3 {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 6px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.social-icons i {
+  font-size: 18px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.cookie-banner {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cookie-banner a {
+  color: red;
+  text-decoration: underline;
+}
+
+.cookie-banner button {
+  background-color: #B2292E;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+
+.footer .logo {
+  width: 120px;
+  height: 100px;
+  margin-bottom: 10px;
+  justify-content:center
+
 }
 
 .footer-column {
